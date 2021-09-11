@@ -15,10 +15,9 @@ SC.stream('/tracks/231652579',function(sound){
            e.preventDefault();
            sound.stop();
          });
-
 });
 
-/*SC.stream('/tracks/1112490034',function(sound){
+SC.stream('/tracks/1112490034',function(sound){
 
   $('#start1').click(function(e) {
            e.preventDefault();
@@ -29,6 +28,7 @@ SC.stream('/tracks/231652579',function(sound){
            e.preventDefault();
            sound.stop();
          });
+      });
 
          SC.stream('/tracks/176348833',function(sound){
 
@@ -40,5 +40,6 @@ SC.stream('/tracks/231652579',function(sound){
                   $('#stop2').click(function(e) {
                     e.preventDefault();
                     sound.stop();
-                  });*/
+                  });
+              });
 });
