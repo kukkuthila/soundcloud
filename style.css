@@ -1,17 +1,16 @@
-
 .navbar {
   margin-bottom: 5px;
   height: 140px;
 }
 
 .main-logo {
-  left: 50%;
+  left: 45%;
   top: 10px;
-  margin-left: -60px !important;
+
 }
 
-h5{
-  font-weight: bold;
+p{
+  font-size: 20px;
   color: black;
 }
 
@@ -45,6 +44,37 @@ h5{
     background-color:#b55016;
   }
 
-  [class*="col-"]{
-      width: 100%;
-    }
+@media screen and (max-width : 1000px){
+  .navbar{
+    width: calc(100%)
+  }
+
+  .main-logo{
+      width: calc(100%/6)
+  }
+
+  img {
+    width: calc(100%)
+  }
+
+  p{
+    width: calc(100%/6)
+    align:center;
+    font-size: 10px;
+  }
+
+#start, #start1, #start2{
+  width: calc(100%/6)
+  align:center;
+  padding: 5px 12px;
+  font-size: 10px;
+}
+
+  #stop, #stop1, #stop2{
+    width: calc(100%/6)
+    align:center;
+    padding: 5px 12px;
+    font-size: 10px;
+  }
+  
+}
