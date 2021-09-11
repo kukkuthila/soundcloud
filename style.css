@@ -1,4 +1,8 @@
-
+@media only screen and (max-width : 600px){
+  div.example {
+    display : none;
+  }
+}
 .navbar {
   margin-bottom: 5px;
   height: 140px;
