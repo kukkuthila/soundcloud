@@ -27,12 +27,12 @@ $(document).ready(function() {
 
 SC.stream('/tracks/1112490034',function(sound){
 
-  $('#start').click(function(e) {
+  $('#start1').click(function(e) {
            e.preventDefault();
            sound.start();
          });
 
-         $('#stop').click(function(e) {
+         $('#stop1').click(function(e) {
            e.preventDefault();
            sound.stop();
          });
@@ -48,12 +48,12 @@ $(document).ready(function() {
 
 SC.stream('/tracks/176348833',function(sound){
 
-  $('#start').click(function(e) {
+  $('#start2').click(function(e) {
            e.preventDefault();
            sound.start();
          });
 
-         $('#stop').click(function(e) {
+         $('#stop2').click(function(e) {
            e.preventDefault();
            sound.stop();
          });
