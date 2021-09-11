@@ -1,8 +1,9 @@
-@media only screen and (max-width : 600px){
-  div.example {
-    display : none;
+@media only screen and (max-width : 768px){
+  [class*="col-"]{
+    width: 100%;
   }
-}
+  }
+
 .navbar {
   margin-bottom: 5px;
   height: 140px;
