@@ -16,30 +16,46 @@ SC.stream('/tracks/231652579',function(sound){
            sound.stop();
          });
 });
+});
+
+
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
+
+$(document).ready(function() {
 
 SC.stream('/tracks/1112490034',function(sound){
 
-  $('#start1').click(function(e) {
+  $('#start').click(function(e) {
            e.preventDefault();
-           sound.start1();
+           sound.start();
          });
 
-         $('#stop1').click(function(e) {
+         $('#stop').click(function(e) {
            e.preventDefault();
-           sound.stop1();
+           sound.stop();
          });
-      });
+});
+});
 
-         SC.stream('/tracks/176348833',function(sound){
 
-           $('#start2').click(function(e) {
-                    e.preventDefault();
-                    sound.start2();
-                  });
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
 
-                  $('#stop2').click(function(e) {
-                    e.preventDefault();
-                    sound.stop2();
-                  });
-              });
+$(document).ready(function() {
+
+SC.stream('/tracks/176348833',function(sound){
+
+  $('#start').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+
+         $('#stop').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+         });
+});
 });
