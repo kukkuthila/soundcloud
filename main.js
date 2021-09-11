@@ -24,12 +24,12 @@ SC.stream('/tracks/1112490034',function(sound){
 
   $('#start1').click(function(e) {
            e.preventDefault();
-           sound.start1();
+           sound.start();
          });
 
          $('#stop1').click(function(e) {
            e.preventDefault();
-           sound.stop1();
+           sound.stop();
          });
 });
 });
@@ -41,12 +41,12 @@ SC.stream('/tracks/176348833',function(sound){
 
   $('#start2').click(function(e) {
            e.preventDefault();
-           sound.start2();
+           sound.start();
          });
 
          $('#stop2').click(function(e) {
            e.preventDefault();
-           sound.stop2();
+           sound.stop();
          });
 });
 });
